@@ -7,6 +7,7 @@ import Greeting from "./components/Greeting";
 import GetData from "./components/GetData";
 import { Home } from "./components/Counter";
 import SeachComp from "./components/Search";
+import AxiosComp from "./components/AxiosComp";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <SeachComp/>
       {/* <GetData/> */}
       <Home/>
+      <AxiosComp/>
     </div>
   );
 }
