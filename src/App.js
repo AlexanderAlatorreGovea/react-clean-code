@@ -5,6 +5,8 @@ import HiddenMessage from "./components/HiddenMessage";
 import Login from "./components/Login";
 import Greeting from "./components/Greeting";
 import GetData from "./components/GetData";
+import { Home } from "./components/Counter";
+import SeachComp from "./components/Search";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       </HiddenMessage>
       <Greeting/>
       <Login/>
-      <GetData/>
+      <SeachComp/>
+      {/* <GetData/> */}
+      <Home/>
     </div>
   );
 }
