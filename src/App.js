@@ -3,6 +3,8 @@ import BookList from "./components/BookList";
 import Navbar from "./components/Navbar";
 import HiddenMessage from "./components/HiddenMessage";
 import Login from "./components/Login";
+import Greeting from "./components/Greeting";
+import GetData from "./components/GetData";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <HiddenMessage>
         <p>Hello World</p>
       </HiddenMessage>
+      <Greeting/>
       <Login/>
+      <GetData/>
     </div>
   );
 }

@@ -21,7 +21,7 @@ afterEach(() => {
 });
 afterAll(() => server.close());
 
-test("allows the user to login successfully", async () => {
+xtest("allows the user to login successfully", async () => {
   render(<Login />);
 
   fireEvent.change(screen.getByLabelText(/username/i), {
@@ -39,8 +39,7 @@ test("allows the user to login successfully", async () => {
   expect(window.localStorage.getItem("token")).toEqual(fakeUserResponse.token);
 });
 
-test("handles server exceptions", async () => {
-
+xtest("handles server exceptions", async () => {
   server.use(
     rest.post("/api/login", (req, res, ctx) => {
       return res(
