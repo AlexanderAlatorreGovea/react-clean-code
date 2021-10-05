@@ -17,12 +17,12 @@ function App() {
       <HiddenMessage>
         <p>Hello World</p>
       </HiddenMessage>
-      <Greeting/>
-      <Login/>
-      <SeachComp/>
+      <Greeting />
+      <Login />
+      <SeachComp />
       {/* <GetData/> */}
-      <Home/>
-      <AxiosComp/>
+      <Home />
+      <AxiosComp />
     </div>
   );
 }
