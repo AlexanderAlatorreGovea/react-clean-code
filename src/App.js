@@ -8,6 +8,7 @@ import GetData from "./components/GetData";
 import { Home } from "./components/Counter";
 import SeachComp from "./components/Search";
 import AxiosComp from "./components/AxiosComp";
+import { HomePage } from "./components/CounterAsync";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       {/* <GetData/> */}
       <Home />
       <AxiosComp />
+      <HomePage/>
     </div>
   );
 }
